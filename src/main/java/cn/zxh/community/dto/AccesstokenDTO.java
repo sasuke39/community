@@ -1,5 +1,8 @@
 package cn.zxh.community.dto;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class AccesstokenDTO {
 
     private String client_id;
